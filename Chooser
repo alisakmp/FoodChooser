@@ -1,0 +1,71 @@
+<html>
+  <head>
+
+      <title>Choose a Food!</title>
+      <style>
+      h1{
+          font-size: 100px;
+          color: #781234;
+      }
+      hr{
+            border: 3px dashed #906712
+      }
+      img{
+        border: 15px solid #090909;
+        width: 150px;
+        height: 150px;
+      }
+      body{
+        background-color: #345291;
+        opacity: 0.5;
+      }
+
+      </style>
+    <script>
+      function ageCheck()
+      {
+        var x = getElementById("number").value
+        x = parseInt (x);
+
+        if(x > 10)
+        {
+      function getImage()
+      {
+        document.getElementById ('pic 1').innerHTML = "
+        <hr>This is unhealthy<br><img SRC = 'chickennuggets.jpg'>
+        <hr>";
+      }
+      function hideImage()
+      {
+
+        document.getElementById('pic 1').innerHTML = "";
+      }
+      function showButton()
+      {
+        document.getElementById('pic1').innerHTML = "
+        <input type = 'buttom' value = 'click' onclick = 'getImage()'>";
+      }
+      function ageCheck()
+      {
+        else if(x < 10)
+      }
+    }
+  }
+
+    </script>
+  </head>
+
+<body>
+  <h1>Choose Your Food</h1>
+  <p> How Old Are You?</p>
+    <img src = "chickennuggets.jpg" height="75px"width="75px" onclick = "showbutton()">
+
+      <input type = "text" value = "Type Birth Year" id = "byear">
+      <input type = "button" value = "Okay" onclick = "getImage()">
+
+        <p id = "steakandpotatoes.jpg"></p>
+        <p id = "apples.jpg"></p>
+        <p id = "chickensalad.jpg"></p>
+        <p id = "these are healthy!"></p>
+  </body>
+</html>
